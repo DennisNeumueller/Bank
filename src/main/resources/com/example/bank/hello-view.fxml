@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bank.HelloController">
+   <children>
+      <Button fx:id="btnLogin" layoutX="274.0" layoutY="343.0" mnemonicParsing="false" onAction="#setOnActionLogin" text="Login" />
+      <TextField fx:id="textAreaUsername" layoutX="252.0" layoutY="188.0" />
+      <TextField fx:id="textAreaPasswort" layoutX="252.0" layoutY="226.0" />
+      <Label fx:id="textUsername" layoutX="139.0" layoutY="192.0" text="Username" />
+      <Label fx:id="textPasswort" layoutX="139.0" layoutY="230.0" text="Passwort" />
+      <Label fx:id="textWelcome" layoutX="242.0" layoutY="130.0" text="Herzlich Willkommen!" />
+      <ComboBox fx:id="comboBoxLanguage" layoutX="436.0" layoutY="24.0" onAction="#auswahl" prefWidth="150.0" />
+      <Label fx:id="textLanguage" layoutX="373.0" layoutY="28.0" text="Sprache" />
+   </children>
+</AnchorPane>
